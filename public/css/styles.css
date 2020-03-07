@@ -1,0 +1,70 @@
+/* Reset */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+}
+
+/* Navigation Bar */
+nav {
+  width: 100vw;
+}
+
+ul {
+  display: flex;
+  flex-grow: inherit;
+  justify-content: space-evenly;
+
+  list-style: none;
+
+  margin: 0;
+  padding: 0;
+
+  background-color: #333;
+}
+
+li {
+  margin: 0 2vw;
+}
+
+li a {
+  display: inline-block;
+  text-align: center;
+
+  padding: 1em;
+
+  text-decoration: none;
+  color: white;
+}
+
+/* Styling for current page in nav bar */
+.now {
+  color: white;
+  background-color: turquoise;
+}
+
+/* Content Styling */
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  color: white;
+
+  text-align: center;
+  margin: 1em;
+}
+
+/* Footer Styling */
+footer {
+  width: 100vw;
+  padding: 0.5em 1em;
+
+  color: white;
+  background-color: #333;
+
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
